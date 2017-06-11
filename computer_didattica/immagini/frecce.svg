@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2191"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Documents and Settings\claudio\Desktop"
+   sodipodi:docname="frecce.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2193" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8357307"
+     inkscape:cx="399.56464"
+     inkscape:cy="530.4565"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata2196">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#00b900;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 334.5404,629.20181 C 334.5404,629.20181 228.49294,638.24553 226.46577,520.79454 C 227.57352,424.42032 322.70192,420.32196 335.32964,421.90042 L 335.49595,492.92035 L 434.23787,377.74264 L 329.00165,266.96767 L 330.1094,341.1869 C 330.1094,341.1869 149.5462,342.29465 149.5462,525.07334 C 150.73892,697.88172 334.5404,706.74429 334.5404,706.74429 L 334.5404,629.20181 z "
+       id="path2227"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="fill:#00b900;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 442.0284,414.39282 C 442.0284,414.39282 548.07586,405.3491 550.10303,522.80009 C 548.99528,619.17431 453.86688,623.27267 441.23916,621.69421 L 441.07285,550.67428 L 342.33093,665.85199 L 447.56715,776.62696 L 446.4594,702.40773 C 446.4594,702.40773 627.0226,701.29998 627.0226,518.52129 C 625.82988,345.71291 442.0284,336.85034 442.0284,336.85034 L 442.0284,414.39282 z "
+       id="path3201"
+       sodipodi:nodetypes="cccccccccc" />
+  </g>
+</svg>

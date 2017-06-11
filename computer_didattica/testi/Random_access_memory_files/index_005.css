@@ -1,0 +1,853 @@
+/*
+ * common.css
+ * This file contains CSS settings common to Wikistandard, Nostalgia and CologneBlue
+ * NOTA PER GLI ADMIN: Si prega di non modificare senza preventiva discussione!
+ */
+/*<pre><nowiki>*/
+#footer { clear: both }
+/* images */
+div.floatright { float: right; margin: 0em 0.5em 0em 0.5em; }
+div.floatright p { font-style: italic; }
+div.floatleft { float: left; margin: 0em 0.5em 0em 0.5em; }
+div.floatleft p { font-style: italic; }
+
+/* Print-specific things to hide */
+.printfooter {
+        display: none;
+}
+
+/* table standards */
+table {
+    background-color:#FFFFFF;   /* bianco opaco, per evitare sovrapp. con le linee dei titoli di sezione */
+}
+
+table.rimage {
+        float:right;
+        margin-left:1em;
+        margin-bottom:1em;
+        text-align:center;
+        font-size:smaller;
+}
+
+/* thumbnails */
+div.thumb {
+    margin: 0.5em;
+    text-align: center;
+    width: auto;
+}
+div.thumb div {
+    border: 1px solid #888888;
+    background-color: #f7f7f7;
+    padding: 2px;
+    font-size: 95%;
+    text-align: center;
+    overflow: hidden;
+}
+div.thumb div * {
+    border: none;
+    background: none;
+}
+div.thumb img {
+    border:1px solid #888888;
+    margin-bottom:3px;
+    background:#FFFFFF;
+}
+div.thumbcaption,
+div.thumbcaption * {
+    border: none !important;
+    background: none !important;
+}
+div.thumbcaption {
+    padding: 0.2em 0 0.2em 0 !important;
+    text-align: left !important;
+}
+div.tright {
+    float: right;
+    margin-left:0.5em;
+}
+div.tleft {
+    float: left;
+    margin-right:0.5em;
+}
+
+/* Page history styling */
+/* the auto-generated edit comments */
+.autocomment { color: #4b4b4b; }
+#pagehistory span.user {
+    margin-left: 1.4em;
+    margin-right: 0.4em;
+}
+#pagehistory span.minor { font-weight: bold; }
+#pagehistory li { border: 1px solid White; }
+#pagehistory li.selected {
+    background-color:#f9f9f9;
+    border:1px dashed #aaaaaa;
+}
+
+table.diff { background:white; }
+td.diff-otitle { background:#ffffff; }
+td.diff-ntitle { background:#ffffff; }
+td.diff-addedline {
+    background:#ccffcc;
+    font-size: 80%;
+}
+td.diff-deletedline {
+    background:#ffffaa;
+    font-size: 80%;
+}
+td.diff-context {
+    background:#eeeeee;
+    font-size: 80%;
+}
+span.diffchange { color: red; font-weight: bold; }
+
+img { border: none; }
+img.tex { vertical-align: middle; }
+span.texhtml { font-family: serif; }
+
+
+#toc,
+.toc {
+	border: 1px solid #bba;
+	background-color: #f7f8ff;
+	padding: 5px;
+	font-size: 95%;
+	text-align: center;
+}
+#toc h2,
+.toc h2 {
+	display: inline;
+	border: none;
+	padding: 0;
+	font-size: 100%;
+	font-weight: bold;
+}
+#toc ul,
+.toc ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin-left: 0;
+	padding-left: 0;
+	text-align: left;
+}
+#toc ul ul,
+.toc ul ul {
+	margin: 0 0 0 2em;
+}
+#toc .toctoggle,
+.toc .toctoggle {
+	font-size: 94%;
+}
+
+.error {
+	color: red;
+	font-size: larger;
+}
+
+/* emulate center */
+.center {
+    width: 100%;
+    text-align: center;
+}
+*.center * {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small for tables and similar */
+.small, .small * { font-size: 94%; }
+table.small { font-size: 100% }
+
+/* use this instead of #toc for page content */
+.toccolours {
+    border:1px solid #aaaaaa;
+    background-color:#f9f9f9;
+    padding:5px;
+    font-size: 95%;
+}
+#siteNotice {
+    border:none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.redirectText {
+	font-size:150%;
+	margin:5px;
+}
+/* Makes redirects appear in italics on [[Special:Allpages]] */
+.allpagesredirect {
+    font-style: italic;
+}
+.searchmatch {
+	color: red;
+	font-weight: bold;
+}
+.sharedUploadNotice {
+	font-style: italic;
+}
+span.unpatrolled {
+	font-weight:bold;
+	color:red;
+}
+
+span.updatedmarker {
+	color:black;
+	background-color:#00FF00;
+}
+span.newpageletter {
+	font-weight:bold;
+	color:black;
+	background-color:yellow;
+}
+span.minoreditletter {
+	color:black;
+	background-color:#C5FFE6;
+}
+
+table.gallery {
+        border:  1px solid #cccccc;
+        margin:  2px;
+        padding: 2px;
+        background-color:#ffffff;
+}
+
+table.gallery tr {
+        vertical-align:top;
+}
+
+table.gallery td {
+      vertical-align:top;
+      background-color:#f9f9f9;
+      border: solid 2px white;
+}
+
+div.gallerybox {
+        margin: 2px;
+        width:  150px;
+}
+
+div.gallerybox div.thumb {
+        text-align: center;
+        border: 1px solid #cccccc;
+        margin: 2px;
+}
+
+div.gallerytext {
+        font-size: 94%;
+        padding: 2px 4px;
+}
+
+span.comment {
+	font-style: italic;
+}
+
+span.changedby {
+	font-size: 95%;
+}
+
+.previewnote {
+	text-align: center;
+	color: #cc0000;
+}
+.editExternally {
+        border-style:solid;
+        border-width:1px;
+        border-color:gray;
+        background: #ffffff;
+        padding:3px;
+        margin-top:0.5em;
+        float:left;
+        font-size:small;
+        text-align:center;
+}
+.editExternallyHelp {
+        font-style:italic;
+        color:gray;
+}
+
+li span.deleted {
+	text-decoration: line-through;
+	color: #888;
+	font-style: italic;
+}
+
+
+/* Classes for EXIF data display */
+table.mw_metadata {
+	margin-left: 0.5em;
+}
+
+table.mw_metadata caption { font-weight: bold; }
+table.mw_metadata th { font-weight: normal; }
+table.mw_metadata td { padding: 0.1em; }
+
+table.mw_metadata {
+	border: none;
+	border-collapse: collapse;
+}
+table.mw_metadata td, table.mw_metadata th {
+	border: 1px solid #aaaaaa;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+table.mw_metadata th {
+	background-color: #f9f9f9;
+}
+table.mw_metadata td {
+	background-color: #fcfcfc;
+}
+table.mw_metadata td.spacer {
+	background: inherit;
+	border-top: none;
+	border-bottom: none;
+}
+table.collapsed tr.collapsable {
+	display: none;
+}
+
+.visualClear {
+    clear: both;
+}
+
+#mw_trackbacks {
+	border: solid 1px #bbbbff;
+	background-color: #eeeeff;
+	padding: 0.2em;
+}
+
+/* Allmessages table */
+
+#allmessagestable th {
+	background-color: #b2b2ff;
+}
+
+#allmessagestable tr.orig {
+	background-color: #ffe2e2;
+}
+
+#allmessagestable tr.new {
+	background-color: #e2ffe2;
+}
+
+#allmessagestable tr.def {
+	background-color: #f0f0ff;
+}
+
+#jump-to-nav {
+  display: none;
+}
+
+/* caratteri per i template IPA, Unicode, polytonic */
+/* "Inherit" resetta i fonts per tutti i browser eccetto MSIE6. Il commento vuoto deve essere presente */
+.IPA {
+        font-family: Chrysanthi Unicode, Doulos SIL, Gentium, GentiumAlt, Code2000, TITUS Cyberbit Basic, DejaVu Sans, Bitstream Vera Sans, Bitstream Cyberbit, Arial Unicode MS, Lucida Sans Unicode, Hiragino Kaku Gothic Pro, Matrix Unicode;
+        font-family /**/:inherit;
+}
+.Unicode {
+        font-family: TITUS Cyberbit Basic, Code2000, Doulos SIL, Chrysanthi Unicode, Bitstream Cyberbit, Bitstream CyberBase, Bitstream Vera, Thryomanes, Gentium, GentiumAlt, Visual Geez Unicode, Lucida Grande, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode;
+        font-family /**/:inherit;
+}
+.polytonic {
+        font-family: Athena, Gentium, Palatino Linotype, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande, Code2000; 
+        font-family /**/:inherit;
+}
+
+  /* Stili per Wikipedia:CommonsTicker */
+ 
+  .tList ul,    .tickerList ul li    { list-style: none; text-indent:-2em; margin-left:2em;   text-align:left; }
+  .tList ul ul, .tickerList ul ul li { list-style: none; text-indent:0;    margin-left:1.5em; text-align:left; }
+
+  .tAction_deleted:before     { content:" [CANC] "; color: #FF0000; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_replaced:before    { content:" [SOST] "; color: #880088; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_addedTag:before    { content:" [+TAG] "; color: #DD6600; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_removedTag:before  { content:" [-TAG] "; color: #00AA00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_addedBad:before    { content:" [+TAG] "; color: #DD6600; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_removedBad:before  { content:" [-TAG] "; color: #00AA00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_addedGood:before   { content:" [+ OK] "; color: #00AA00; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_removedGood:before { content:" [- OK] "; color: #DD6600; font-family:monospace; font-weight:bold; font-size:100%; }
+
+  .tAction_replacedOwn:before { content:" [INFO] "; color: #808080; font-family:monospace; font-weight:bold; font-size:100%; }  
+  .tAction_deletedRev:before  { content:" [INFO] "; color: #808080; font-family:monospace; font-weight:bold; font-size:100%; }  
+
+  .tUsage  { font-size:80%; }  /* ticker usage list */
+  .tTemplateEntry    { font-weight: bold; } /* entry applies to a template used by multiple images */
+
+/* make the list of references look smaller */
+ol.references {
+   font-size: 90%;
+}
+
+.references-small { font-size: 90%;}
+
+/* Class for links with loudspeaker icon next to them */
+/* copiata da en.wiki per fare link con l'icona di un altoparlante */
+
+.audiolink a{
+    background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png") center left no-repeat !important;
+    padding-left: 16px !important;
+    padding-right: 0 !important;
+}
+
+.AvvisoTrasferito
+{
+    background-color: #EEF8FF;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Geographical coordinates 
+
+To display coordinates using the notation in the source code, write this in your User:Username/monobook.css:
+.geo-default { display: inline } .geo-nondefault { display: none } 
+.geo-dec { display: inline } .geo-dms { display: inline }
+
+To display coordinates using decimal notation, write this in your User:Username/monobook.css:
+.geo-default { display: inline } .geo-nondefault { display: inline } 
+.geo-dec { display: inline } .geo-dms { display: none }
+
+To display coordinates using DMS notation, write this in your User:Username/monobook.css:
+.geo-default { display: inline } .geo-nondefault { display: inline } 
+.geo-dec { display: none }   .geo-dms { display: inline }
+
+To display coordinates in both decimal and DMS notation, write this in your User:Username/monobook.css:
+.geo-default { display: inline } .geo-nondefault { display: inline } 
+.geo-dec { display: inline }   .geo-dms { display: inline }
+.geo-multi-punct { display: inline }
+
+See [[Template:Coor link]] for how these are used.
+
+Note that the classes "geo", "longitude", and "latitude" are not just styles but also used by the [[Geo microformat]], so the names should not be changed.
+
+*/
+
+.geo-default { display: inline; }
+.geo-nondefault { display: none; }
+.geo-dms { display: inline; }
+.geo-dec { display: inline; }
+.geo-multi-punct { display: none; }
+
+.longitude .latitude {
+white-space: nowrap;
+}
+
+/* This is used for the Geo microformat, but no style is needed for now other than .geo-dec. */
+.geo { }
+/***** end Geo-related */
+
+/* Classe per template Arabo */
+.arabo{
+   font-size:140%;
+}
+
+/* Classi per template Sinottici */
+
+.sinottico {
+    border:1px solid #aaaaaa;
+    background-color:#f9f9f9;
+    padding:3px;
+    font-size: 95%;
+    clear:right;
+    width:250px;
+    float:right;
+    margin: 0 0 1em .5em;
+    vertical-align: top;
+}
+ 
+.sinottico th {
+    background-color: #f2f2f2;
+    padding: 0em 0.5em;
+    text-align: right;
+    vertical-align: top;
+}
+ 
+.sinottico td {
+    padding: 0em 0.2em;
+    vertical-align: top;
+}
+ 
+.sinottico_testata th {
+    font-size: 120%;
+    padding: 0em 0.5em;
+    background-color: #dedede;
+    text-align: center;
+}
+ 
+.sinottico_piede {
+    text-align: center;
+    font-size: 90%;
+    background:#EFEFEF;
+}
+ 
+.sinottico_divisione th {
+    color: black;
+    font-size: 100%;
+    padding: 0em 0.5em;
+    background-color: #eeeeee;
+    text-align: center;
+}
+/* Fine classi per template Sinottici */
+
+.messagebox {
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+    width: 80%;
+    margin: 0 auto 1em auto;
+    padding: .2em;
+}
+
+/*Classe necessaria per rendere non visibili parte dei contenuti */
+/*copiata qui perché presente solo in http://it.wikipedia.org/skins/monobook/main.css */
+
+.hiddenStructure {
+    display: none;
+}
+
+/* wikitable/prettytable class for skinning normal tables */
+
+table.wikitable,
+table.prettytable {
+  margin: 1em 1em 1em 0;
+  background: #f9f9f9;
+  border: 1px #aaa solid;
+  border-collapse: collapse;
+}
+
+table.wikitable th, table.wikitable td,
+table.prettytable th, table.prettytable td {
+  border: 1px #aaa solid;
+  padding: 0.2em;
+}
+
+table.wikitable th,
+table.prettytable th {
+  background: #f2f2f2;
+  text-align: center;
+}
+
+table.wikitable caption,
+table.prettytable caption {
+  margin-left: inherit;
+  margin-right: inherit;
+  font-weight: bold;
+}
+
+/* Stili del template avviso */
+table.avviso {
+  margin: 0 10%;                           /* Non si sovrappone ad altri elementi */
+  border-collapse: collapse; 
+  background: #fbfbfb; 
+  border: 1px solid #aaa; 
+  border-left: 10px solid #1e90ff;         /* Colore blu di default */
+}
+table.avviso th.avviso-testo, table.avviso td.avviso-testo {      /* Corpo del messaggio */
+  padding: 0.25em 0.5em;                   /* 0.5em sinistra/destra */
+  width: 100%;                             /* Rende tutti i template della stessa lunghezza nonostante il testo interno */
+}
+table.avviso td.avviso-immagine {          /* Stile dell'immagine a sinistra */
+  padding: 2px 0px 2px 0.5em;              /* 0.5em sinistra, 0px destra */
+  text-align: center; 
+}
+table.avviso td.avviso-immaginedestra {    /* Stile dell'immagine a destra */
+  padding: 2px 4px 2px 0px;                /* 0px sinistra, 4px destra */
+  text-align: center; 
+}
+table.avviso-informazioni {
+  border-left: 10px solid #1e90ff;         /* Blu */
+}
+table.avviso-cancella,
+table.avviso-importante {
+  border-left: 10px solid #b22222;         /* Rosso */
+}
+table.avviso-contenuto {
+  border-left: 10px solid #f28500;         /* Arancio */
+}
+table.avviso-stile {
+  border-left: 10px solid #f4c430;         /* Giallo */
+}
+table.avviso-statico {
+  border-left: 10px solid limegreen;       /* Verde */
+}
+table.avviso-struttura {
+  border-left: 10px solid #9932cc;         /* Viola */
+}
+table.avviso-generico {
+  border-left: 10px solid #bba;            /* Grigio */
+}
+table.avviso.avviso-mini {                 /* variante del box */
+    float: right;
+    clear: right;
+    margin: 0 0 0 1em;
+    width: 25%;
+}
+
+/***************
+ * Prima parte *
+ ***************/
+
+/************************
+ * STILI PER I TEMPLATE *
+ ************************/
+
+.itwiki_template_avviso {
+  clear:both;
+  text-align:left;
+  background-color: #EEF8FF;
+  padding-bottom: 0.5em;
+}
+.itwiki_template_avviso_v {
+  clear:both;
+  float:right;
+  width:16em;
+  background-color: #EEF8FF;
+}
+.itwiki_template_avviso .intestazione, .itwiki_template_avviso_v .intestazione {
+  font-weight:bold;
+}
+.itwiki_template_disclaimer {
+  clear:both;
+  display:block; /* per allargare anche le tabelle (se servissero) alla
+                    larghezza della pagina (NON specificare "width"!) */
+  text-align:center;
+  border:1px solid #C00000;
+  background-color: #FFFFFF;
+  font-size: 90%;
+}
+.itwiki_template_disclaimer_v {
+  clear:both;
+  float:right;
+  border:1px solid #C00000;
+  background-color: #FFFFFF;
+}
+.itwiki_template_copyright {
+  clear:both;
+  display:block;
+  text-align:left;
+  background-color:#F1F1DE;
+}
+.itwiki_template_wikimedia {
+  float:right;
+  clear:right;
+  border:solid #aaa 1px; 
+  width:22em;
+  font-size:90%;
+  background-color:#F9F9F9;
+}
+.itwiki_template_wikimedia .floatleft {
+  border:.5em solid white;
+}
+.itwiki_template_wikimedia p {
+  text-align:left;
+}
+.itwiki_template_babelbox {
+  float:right; 
+  margin:0 0 .5em 1em;
+  width:20em; /* per evitare problemi con Opera e Safari */
+  padding:5px 7px 5px 5px; /* questo lo farà apparire storto in MSIE
+                              ma non so che farci */
+}
+.itwiki_template_babelbox .intestazione {
+  text-align:center;
+  font-weight:bold;
+  margin-left:2px;
+}
+.itwiki_template_babel {
+  float:left;
+  width:20em;
+  background:#e0e8ff;
+  border:solid #99b3ff 1px;
+  margin:1px 1px 1px 0;
+}
+.itwiki_template_babel .sigla {
+  background:#99b3ff;
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+}
+.itwiki_template_babel2 {
+  float:left;
+  width:20em;
+  background:#c5fcdc;
+  border:solid #6ef7a7 1px;
+  margin:1px 1px 1px 0;
+}
+.itwiki_template_babel2 .sigla {
+  background:#6ef7a7;
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+}
+.itwiki_template_babel .sigla,
+.itwiki_template_babel2 .sigla {
+  width:4em;
+}
+.itwiki_template_babel td,
+.itwiki_template_babel2 td {
+  font-size:.9em;
+  line-height:1.2em;
+  padding:5px;
+}
+.itwiki_template_babelbox .itwiki_template_babel,
+.itwiki_template_babelbox .itwiki_template_babel2 {
+  clear:left; /* perché i singoli template nel babelbox
+                 siano uno sotto l'altro */
+}
+.itwiki_template_toc {
+    border: 1px solid #aaaaaa;
+    background-color: #f9f9f9;
+    padding: 0px;
+    font-size: 95%;
+}
+
+/* classi per arrotondare i bordi dei div e delle tabelle */
+.radius {
+-moz-border-radius: 1em;
+}
+.radius_top {
+-moz-border-radius-topright: 1em;
+-moz-border-radius-topleft: 1em;
+}
+.radius_bottom {
+-moz-border-radius-bottomright: 1em;
+-moz-border-radius-bottomleft: 1em;
+}
+.rad {
+-moz-border-radius: .5em;
+}
+
+
+/***********************
+ * FINE STILI TEMPLATE *
+ ***********************/
+
+/* Per elementi che non vanno stampati */
+@media print {
+    .noprint { display: none }
+}
+
+/**************************************
+/* Classi per dynamic navigation bars *
+ **************************************/
+
+.NavToggle {
+   font-size: 95%;
+   float:right;
+}
+
+div.BoxenVerschmelzen,
+div.NavFrame {
+        margin: 0.5em 0 0 0;
+        padding: 2px;
+        border: 1px solid #aaaaaa;
+        text-align: center;
+        border-collapse: collapse;
+        font-size: 95%;
+        clear:both;
+}
+div.BoxenVerschmelzen div.NavFrame {
+        border-style: none;
+        border-style: hidden;
+        margin: 0;
+}
+div.NavFrame + div.NavFrame {
+        border-top-style: none;
+        border-top-style: hidden;
+}
+div.NavPic {
+        background-color: #ffffff;
+        margin: 0px;
+        padding-right: 2px;
+        float: left;
+}
+div.NavFrame div.NavHead {
+        font-weight: bold;
+        font-size: 100%;
+        background-color: #efefef;
+}
+div.NavFrame p {
+        font-size: 100%;
+}
+div.NavFrame div.NavContent {
+        font-size: 100%;
+}
+div.NavFrame div.NavContent p {
+        font-size: 100%;
+}
+div.NavEnd {
+        margin: 0px;
+        padding: 0px;
+        line-height: 1px;
+        clear: both;
+}
+
+#bodyContent .references sup{
+       color:#002BB8 !important;
+}
+
+/* Highlight per le note */
+
+ol.references > li:target {
+ background-color: #DEF;
+}
+
+sup.reference:target {
+ background-color: #DEF;
+}
+
+/* BEGIN Template:Fumetto e animazione */
+table.sinossifumetti th{
+ vertical-align: top;
+ color: black;
+ background-color: rgb(239, 239, 239);
+ text-align: left;
+ width: 35%; 
+ min-width: 35%;
+ max-width: 35%;
+}
+table.sinossifumetti td{
+ color: black;
+ background-color: white;
+ vertical-align: bottom;
+ width: 65%; 
+ min-width: 65%; 
+ max-width: 65%;
+}
+tr.sinossifumettibreak{
+ border-top: 1px solid #AAA;
+}
+
+/* END   Template:Fumetto e animazione */
+
+
+/* Rende il form di cancellazione trasparente nelle pagine con sfondo "colorato"*/
+#deleteconfirm, #deleteconfirm>table {
+    background: transparent;
+}
+
+/*
+ Serve per simulare le sottosezioni
+ nella sezione delle preferenze destinata ai gadgets,
+ visto che non si possono fare normalmente
+*/
+.tb-subsection {
+    font-size: smaller;
+}
+
+/*
+ Stili per i box che si visualizzano al passaggio del mouse
+ Licenza: GFDL e Creative Commons Attribution 2.5
+*/
+.HopContent
+{
+ display:none;
+}
+
+.HopFrame:hover .HopContent
+{
+ display:block;
+}
+
+/* CATEGORIE NASCOSTE */
+/* Se tutte le categorie di una voce sono nascoste, le mostra lo stesso (in modo da visualizzare il [altre] per poterci accedere) */
+.catlinks-allhidden { display: block; }
+
+/*</nowiki></pre>*/

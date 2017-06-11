@@ -1,0 +1,277 @@
+/* <pre> */ 
+
+/*********************************
+ *      Leggi le istruzioni      *
+ *  nella pagina di discussione  *
+ * prima di fare delle modifiche *
+ *********************************/
+
+/*****************
+ * Seconda parte *
+ *****************/
+
+.ns-1 #content, .ns-1 #p-cactions li,
+.ns-1 #p-cactions li a { background:#ffe; }
+.ns-1 div.thumb { border-color:#ffe; }
+
+.ns-3 #content, .ns-3 #p-cactions li,
+.ns-3 #p-cactions li a { background:#ffe; }
+.ns-3 div.thumb { border-color:#ffe; }
+
+.ns-4 #content, .ns-4 #p-cactions li,
+.ns-4 #p-cactions li a { background:#efe; }
+.ns-4 div.thumb { border-color:#efe; }
+
+.ns-5 #content, .ns-5 #p-cactions li,
+.ns-5 #p-cactions li a { background:#ffe; }
+.ns-5 div.thumb { border-color:#ffe; }
+
+.ns-6 #content, .ns-6 #p-cactions li,
+.ns-6 #p-cactions li a { background:#fff; }
+.ns-6 div.thumb { border-color:#fff; }
+
+.ns-7 #content, .ns-7 #p-cactions li,
+.ns-7 #p-cactions li a { background:#ffe; }
+.ns-7 div.thumb { border-color:#ffe; }
+
+.ns-8 #content, .ns-8 #p-cactions li,
+.ns-8 #p-cactions li a { background:#f1f1f1; }
+.ns-8 div.thumb { border-color:#eef; }
+
+.ns-9 #content, .ns-9 #p-cactions li,
+.ns-9 #p-cactions li a { background:#ffe; }
+.ns-9 div.thumb { border-color:#ffe; }
+
+.ns-11 #content, .ns-11 #p-cactions li,
+.ns-11 #p-cactions li a { background:#ffe; }
+.ns-11 div.thumb { border-color:#ffe; }
+
+.ns-12 #content, .ns-12 #p-cactions li,
+.ns-12 #p-cactions li a { background:#fee; }
+.ns-12 div.thumb { border-color:#fee; }
+
+.ns-13 #content, .ns-13 #p-cactions li,
+.ns-13 #p-cactions li a { background:#ffe; }
+.ns-13 div.thumb { border-color:#fee; }
+
+.ns-15 #content, .ns-15 #p-cactions li,
+.ns-15 #p-cactions li a { background:#ffe; }
+.ns-15 div.thumb { border-color:#ffe; }
+
+.ns-100 #content, .ns-100 #p-cactions li,
+.ns-100 #p-cactions li a { background:#f0eeff; }
+.ns-100 div.thumb { border-color:#ffe; }
+
+.ns-101 #content, .ns-101 #p-cactions li,
+.ns-101 #p-cactions li a { background:#ffe; }
+.ns-101 div.thumb { border-color:#ffe; }
+
+.ns-102 #content, .ns-102 #p-cactions li,
+.ns-102 #p-cactions li a { background:#F5FAFA; }
+.ns-102 div.thumb { border-color:#ffe; }
+
+.ns-103 #content, .ns-103 #p-cactions li,
+.ns-103 #p-cactions li a { background:#ffe; }
+.ns-103 div.thumb { border-color:#ffe; }
+
+/* Stile per i titoli di livello 3 */
+h3 { 
+   border-bottom: dotted 1px #DDDDDD;
+}
+
+/* Stile del box del sitenotice */
+#mw-dismissable-notice {
+   background-color: transparent;
+}
+
+/* Per scrivere sotto il titolo di ogni pagina "Da Wikipedia, l'enciclopedia libera" */
+#siteSub {
+    display: inline;
+    font-size: 90%;
+    font-weight: normal;
+    font-style:italic;
+    border-bottom: none;
+}
+
+#bodyContent #siteSub a {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    padding-right: 0;
+}
+
+/********************************************
+/* Set di icone con effetto rollover (40px) *
+ ********************************************/
+
+#HILL40_dado a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/4/44/HILL40_dado_ROLLOVER.png);}
+#HILL40_dado a:hover { background-position: 0 -40px;}
+#HILL40_dado a:active { background-position: 0 -40px;}
+ 
+#HILL40_famiglia a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/8/8f/HILL40_famiglia_ROLLOVER.png);}
+#HILL40_famiglia a:hover { background-position: 0 -40px;}
+#HILL40_famiglia a:active { background-position: 0 -40px;}
+ 
+#HILL40_indici a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/a/a3/HILL40_indici_ROLLOVER.png);}
+#HILL40_indici a:hover { background-position: 0 -40px;}
+#HILL40_indici a:active { background-position: 0 -40px;}
+ 
+#HILL40_lente a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/4/44/HILL40_lente_ROLLOVER.png);}
+#HILL40_lente a:hover { background-position: 0 -40px;}
+#HILL40_lente a:active { background-position: 0 -40px;}
+ 
+#HILL40_libro a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/c/c4/HILL40_libro_ROLLOVER.png);}
+#HILL40_libro a:hover { background-position: 0 -40px;}
+#HILL40_libro a:active { background-position: 0 -40px;}
+ 
+#HILL40_meccanismo a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/a/a5/HILL40_meccanismo_ROLLOVER.png);}
+#HILL40_meccanismo a:hover { background-position: 0 -40px;}
+#HILL40_meccanismo a:active { background-position: 0 -40px;}
+ 
+#HILL40_molecola a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/a/a3/HILL40_molecola_ROLLOVER.png);}
+#HILL40_molecola a:hover { background-position: 0 -40px;}
+#HILL40_molecola a:active { background-position: 0 -40px;}
+ 
+#HILL40_mondo a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/4/40/HILL40_mondo_ROLLOVER.png);}
+#HILL40_mondo a:hover { background-position: 0 -40px;}
+#HILL40_mondo a:active { background-position: 0 -40px;}
+ 
+#HILL40_orologio a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/5/5b/HILL40_orologio_ROLLOVER.png);}
+#HILL40_orologio a:hover { background-position: 0 -40px;}
+#HILL40_orologio a:active { background-position: 0 -40px;}
+ 
+#HILL40_pigreco a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/a/a3/HILL40_pigreco_ROLLOVER.png);}
+#HILL40_pigreco a:hover { background-position: 0 -40px;}
+#HILL40_pigreco a:active { background-position: 0 -40px;}
+ 
+#HILL40_puzzle a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/a/aa/HILL40_puzzle_ROLLOVER.png);}
+#HILL40_puzzle a:hover { background-position: 0 -40px;}
+#HILL40_puzzle a:active { background-position: 0 -40px;}
+ 
+#HILL40_tavolozza a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/7/74/HILL40_tavolozza_ROLLOVER.png);}
+#HILL40_tavolozza a:hover { background-position: 0 -40px;}
+#HILL40_tavolozza a:active { background-position: 0 -40px;}
+ 
+#HILL40_w a { display:block; height:40px; width:40px; background: url(http://upload.wikimedia.org/wikipedia/it/c/c8/HILL40_w_ROLLOVER.png);}
+#HILL40_w a:hover { background-position: 0 -40px;}
+#HILL40_w a:active { background-position: 0 -40px;}
+
+/**********************
+/* Immagini di sfondo *
+ **********************/
+
+/* Visualizza una lente d'ingrandimento su sfondo viola chiaro */
+#HP_search { background-image: url(http://upload.wikimedia.org/wikipedia/it/3/3e/HP_search.png);}
+
+/* Visualizza una lente d'ingrandimento su sfondo marrone chiaro (#FFFBF7) */
+#BG_zoom { background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/8c/BGzoom.png);}
+
+/* Visualizza il logo di Wikipedia su sfondo marrone chiaro (#FFFBF7) */
+#BG_wiki { background-image: url(http://upload.wikimedia.org/wikipedia/commons/6/6a/BGwikipedia_logo.png);}
+
+/* Visualizza una sfumatura marrone chiaro-bianco per aree di grandi dimensioni */
+#BG_sfum { background-image: url(http://upload.wikimedia.org/wikipedia/commons/a/a4/BG_sfum.jpg);}
+
+/* Visualizza una sfumatura marrone chiaro-trasparente*/
+.Sfum { background-image: url(http://upload.wikimedia.org/wikipedia/it/6/62/Sfum.png);}
+
+/* Visualizza una sfumatura marrone chiaro-bianco per browser Internet Explorer*/
+.Sfum2 { background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d0/Sfum.jpg);}
+
+/* Visualizza una sfumatura verticale azzurro-bianco */
+.BG_azzurro { background-image: url(http://upload.wikimedia.org/wikipedia/commons/2/27/BG_azzurro.jpg);}
+
+/* Visualizza una sfumatura verticale azzurro-bianco (E0F0FF-FFFFFF) */
+.E0F0FF-FFFFFF { background-image: url(http://upload.wikimedia.org/wikipedia/commons/b/b1/E0F0FF-FFFFFF.jpg); background-position:top; background-repeat:repeat-x;}
+
+/* Visualizza l'icona del portale comunità su sfondo bianco */
+.BG_comunità { background-image: url(http://upload.wikimedia.org/wikipedia/commons/f/f9/BG_comunit%C3%A0.jpg);}
+
+.BGblue1 { background-image: url("http://upload.wikimedia.org/wikipedia/commons/3/3e/BGblue1.jpg"); background-position:top; background-repeat:repeat-x;}
+
+.BGorange1 { background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/02/BGorange1.jpg); background-position: top; background-repeat:repeat-x;}
+
+.BGorange2 { background-image: url(http://upload.wikimedia.org/wikipedia/commons/a/a7/BGorange2.jpg); background-position: top; background-repeat:repeat-x;}
+
+/* Visualizza una sfumatura su sfondo qualsiasi (solo firefox/mozilla) */
+.BGalpha { background-image: url(http://upload.wikimedia.org/wikipedia/it/5/55/BGalpha.png); background-position: top; background-repeat:repeat-x;}
+
+.PPcornerTop { background-image: url(http://upload.wikimedia.org/wikipedia/it/e/e4/PPcornerTop2.gif); background-position:top left; background-repeat:no-repeat; width:10px; height:10px;}
+
+.PPcornerBottom { background-image: url(http://upload.wikimedia.org/wikipedia/it/c/c1/PPcornerBottom.gif); background-position:bottom left; background-repeat:no-repeat; width:10px; height:10px;}
+
+.PPradiusTop {background-image: url(http://upload.wikimedia.org/wikipedia/it/7/70/PPradiusTop.gif);    
+   background-position:top left; 
+   background-repeat:no-repeat; 
+   width:13px; 
+   height:13px;
+}
+
+.PPradiusBottom {background-image: url(http://upload.wikimedia.org/wikipedia/it/7/70/PPradiusBottom.gif); 
+   background-position:bottom left; 
+   background-repeat:no-repeat; 
+   width:13px; 
+   height:13px;
+}
+
+.B-topright { background-image: url(http://upload.wikimedia.org/wikipedia/it/a/a8/B_topright.png); background-repeat:no-repeat; background-position: top right; 
+   width: 13px; 
+   height: 14px;
+}
+
+.B-topleft { background-image: url(http://upload.wikimedia.org/wikipedia/it/e/ea/B_topleft.png); background-repeat:no-repeat; background-position: top left; 
+   width: 13px; 
+   height: 14px;
+}
+
+.B-bottomright { background-image: url(http://upload.wikimedia.org/wikipedia/it/a/a9/B_bottomright.png); background-repeat:no-repeat; background-position: bottom right;
+   width: 13px; 
+   height: 14px;
+}
+
+.B-bottomleft { background-image: url(http://upload.wikimedia.org/wikipedia/it/f/f3/B_bottomleft.png); background-repeat:no-repeat; background-position: bottom left; 
+   width: 13px; 
+   height: 14px;
+}
+
+.obliquo { background-image: url(http://upload.wikimedia.org/wikipedia/it/7/76/Obliquo.gif); background-repeat:repeat;}
+
+
+/* Fix alla pagina principale */
+.interwiki-completelist {
+    font-weight: bold;
+}
+
+/*
+ Segnala con una stellina, accanto all'interwiki corrispondente, una voce da vetrina in un'altra lingua
+*/
+.portlet li {
+ list-style-image: url(http://upload.wikimedia.org/wikipedia/commons/1/18/Monobook-bullet.png);
+}
+li.FA {
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/4/4c/Icone_AdQ.png");
+}
+
+/*
+ Permette di scrivere le coordinate geografiche in alto a destra
+*/
+#coordinates {  
+position:absolute;
+z-index:1;
+border:none;
+background:none;
+right:30px;
+top:3.7em;
+float:right;
+margin:0.0em;
+padding:0.0em;
+line-height:1.5em;
+text-align:right;
+text-indent:0;
+font-size:85%;
+text-transform:none;
+white-space:nowrap;
+}
+
+/* </pre> */
